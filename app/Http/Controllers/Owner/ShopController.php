@@ -69,6 +69,8 @@ class ShopController extends Controller
 
         $shop->save();
 
-        return redirect()->route('owner.shops.index')->with(['message' => '店舗情報を更新しました。', 'status' => 'info']);
+        return redirect()
+        ->route('owner.shops.index')
+        ->with(['message' => '店舗情報を更新しました。', 'status' => 'info']);
     }
 }
