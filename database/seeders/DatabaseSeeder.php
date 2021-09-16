@@ -4,6 +4,7 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
+use App\Models\Product; use App\Models\Stock;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,14 +16,18 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+
         $this->call([
             AdminSeeder::class,
             OwnerSeeder::class,
             ShopSeeder::class,
             ImageSeeder::class,
             CategorySeeder::class,
-            ProductSeeder::class,
-            StockSeeder::class,
+            // ProductSeeder::class,
+            // StockSeeder::class,
+            UserSeeder::class,
         ]);
+        \App\Models\Product::factory(100)->create();
+        \App\Models\Stock::factory(100)->create();
     }
 }
