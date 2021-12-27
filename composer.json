@@ -14,7 +14,7 @@
         "laravel/framework": "^8.40",
         "laravel/tinker": "^2.5",
         "stripe/stripe-php": "^7.96",
-        "fzaninotto/faker": "^1.9"
+        "fzaninotto/faker": "^1.4"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -24,7 +24,6 @@
         "mockery/mockery": "^1.4.2",
         "nunomaduro/collision": "^5.0",
         "phpunit/phpunit": "^9.3.3",
-        "fzaninotto/faker": "^1.4"
     },
     "autoload": {
         "psr-4": {
