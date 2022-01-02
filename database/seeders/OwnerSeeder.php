@@ -18,40 +18,42 @@ class OwnerSeeder extends Seeder
         DB::table('owners')->insert([
             [
                 'id' => '1',
-                'name' => 'owner',
-                'email' => 'owner@owner.com',
+                'name' => 'owner1',
+                'email' => 'owner1@owner.com',
                 'password' => Hash::make('password123'),
                 'created_at' => '2021/01/01 11:11:11',
             ],
             [
                 'id' => '2',
-                'name' => 'owner1',
+                'name' => 'owner2',
                 'email' => 'owner2@owner.com',
                 'password' => Hash::make('password123'),
                 'created_at' => '2021/01/01 11:11:11',
             ],
             [
                 'id' => '3',
-                'name' => 'owner2',
+                'name' => 'owner3',
                 'email' => 'owner3@owner.com',
                 'password' => Hash::make('password123'),
                 'created_at' => '2021/01/01 11:11:11',
             ],
             [
                 'id' => '4',
-                'name' => 'owner3',
+                'name' => 'owner4',
                 'email' => 'owner4@owner.com',
                 'password' => Hash::make('password123'),
                 'created_at' => '2021/01/01 11:11:11',
-            ],[
+            ],
+            [
                 'id' => '5',
-                'name' => 'owner4',
+                'name' => 'owner5',
                 'email' => 'owner5@owner.com',
                 'password' => Hash::make('password123'),
                 'created_at' => '2021/01/01 11:11:11',
-            ],[
+            ],
+            [
                 'id' => '6',
-                'name' => 'owner5',
+                'name' => 'owner6',
                 'email' => 'owner6@owner.com',
                 'password' => Hash::make('password123'),
                 'created_at' => '2021/01/01 11:11:11',
