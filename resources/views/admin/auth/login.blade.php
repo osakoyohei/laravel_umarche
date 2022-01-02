@@ -22,7 +22,7 @@
             <div>
                 <x-label for="email" :value="__('Email')" />
 
-                <x-input id="email" class="block mt-1 w-full" type="email" name="email" value="admin@admin.com" required autofocus />
+                <x-input id="email" class="block mt-1 w-full" type="email" name="email" value="admin1@admin.com" required autofocus />
             </div>
 
             <!-- Password -->
