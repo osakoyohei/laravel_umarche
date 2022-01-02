@@ -16,6 +16,7 @@ class ImageSeeder extends Seeder
     {
         DB::table('images')->insert([
             [
+                'id' => '1',
                 'owner_id' => '1',
                 'filename' => 'no_image.jpg',
                 'title' => null,
