@@ -18,16 +18,16 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
 
         $this->call([
+            UserSeeder::class,
             AdminSeeder::class,
             OwnerSeeder::class,
-            ShopSeeder::class,
-            ImageSeeder::class,
             CategorySeeder::class,
+            // ShopSeeder::class,
+            // ImageSeeder::class,
             // ProductSeeder::class,
             // StockSeeder::class,
-            UserSeeder::class,
         ]);
-        \App\Models\Product::factory(100)->create();
-        \App\Models\Stock::factory(100)->create();
+        // \App\Models\Product::factory(100)->create();
+        // \App\Models\Stock::factory(100)->create();
     }
 }
