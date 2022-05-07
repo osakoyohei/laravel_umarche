@@ -23,11 +23,11 @@ class DatabaseSeeder extends Seeder
             OwnerSeeder::class,
             CategorySeeder::class,
             ShopSeeder::class,
-            // ImageSeeder::class,
+            ImageSeeder::class,
             // ProductSeeder::class,
             // StockSeeder::class,
         ]);
-        // \App\Models\Product::factory(100)->create();
-        // \App\Models\Stock::factory(100)->create();
+        \App\Models\Product::factory(100)->create();
+        \App\Models\Stock::factory(100)->create();
     }
 }
